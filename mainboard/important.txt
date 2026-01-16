@@ -1,4 +1,5 @@
 these are some important things to remember:
 -i'm using the adxl343 symbol for both accelerometers because their pins and footprints are identical
 -i can't find the gpio22 pin so im using gpio4 and 5 for SDA and SCL respectively
-
+-the i2c address of the adxl345 is 0x53 (the SDO pin is grounded)
+-the i2c address of the adxl375 is 0x1B (the SDO pin is high)
